@@ -9,6 +9,8 @@ import java.time.LocalDate;
 import java.time.temporal.ChronoUnit;
 
 public class ValidacaoPeriodicidadeEntreReajustes implements ValidacaoReajuste{
+
+    @Override
     public void validar(Funcionario funcionario, BigDecimal aumento){
         LocalDate dataUltimoReajusto = funcionario.getDataUltimoReajuste();
         LocalDate dataAtual = LocalDate.now();
