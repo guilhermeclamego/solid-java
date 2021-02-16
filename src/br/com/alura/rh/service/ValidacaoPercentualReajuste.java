@@ -2,7 +2,6 @@ package br.com.alura.rh.service;
 
 import br.com.alura.rh.ValidacaoException;
 import br.com.alura.rh.model.Funcionario;
-
 import java.math.BigDecimal;
 import java.math.RoundingMode;
 
